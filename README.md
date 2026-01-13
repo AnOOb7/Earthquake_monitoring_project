@@ -25,24 +25,20 @@ REST APIs
 
 ### What it does
 
-Ingests live earthquake data from USGS REST API
-
-Stores raw JSON in Unity Catalog Volumes (Bronze)
-
-Uses Delta Live Tables to flatten and clean data (Silver)
-
-Creates analytical Gold tables
-
-Powers a live dashboard with trends, country distribution and severity
+- Ingests live earthquake data from USGS REST API
+- Stores raw JSON in Unity Catalog Volumes (Bronze)
+- Uses Delta Live Tables to flatten and clean data (Silver)
+- Creates analytical Gold tables
+- Powers a live dashboard with trends, country distribution and severity
 
 ### Gold Tables
 
-earthquake_by_country
-earthquake_by_magnitude
-earthquake_daily
+- earthquake_by_country
+- earthquake_by_magnitude
+- earthquake_daily
 
 ### Dashboards
 
-Earthquake distribution by country
-Magnitude severity
-Daily trend
+- Earthquake distribution by country
+- Magnitude severity
+- Daily trend
