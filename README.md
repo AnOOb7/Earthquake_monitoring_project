@@ -2,18 +2,19 @@
 
 This project implements a real-time data engineering pipeline using Azure Databricks and Delta Live Tables.
 
-Architecture
+### Architecture
+
 USGS Earthquake API
-        ↓
+        >
 Unity Catalog Volume (Bronze)
-        ↓
+        >
 Delta Live Tables (Silver)
-        ↓
+        >
 Delta Lake (Gold)
-        ↓
+        >
 Databricks SQL Dashboard
 
-Tech Stack
+### Tech Stack
 
 Azure Databricks
 Unity Catalog
